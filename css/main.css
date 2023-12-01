@@ -3,7 +3,7 @@
   --main-color-alt: #1787e0;
   --main-transition: 0.3s;
   --main-padding: 100px;
-  --main-background: #ececec;
+  --section-background: #ececec;
 }
 html {
   scroll-behavior: smooth;
@@ -241,7 +241,7 @@ header .mega-menu .links li a i {
   top: -20px;
   width: 100%;
   height: 100%;
-  background-color: var(--main-background);
+  background-color: var(--section-background);
   z-index: -1;
   transform: skewY(-6deg);
   transform-origin: top left;
@@ -307,7 +307,7 @@ header .mega-menu .links li a i {
 }
 /* start article */
 .articles {
-  padding: 0 var(--main-padding);
+  padding: var(--main-padding) 0;
   position: relative;
 }
 .articles .container {
